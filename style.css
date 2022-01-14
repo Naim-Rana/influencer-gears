@@ -75,6 +75,14 @@
     margin: 30px 0;
 }
 
+.all-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 20px; */
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
 .collection-box {
     height: 440px;
     width: 300px;
