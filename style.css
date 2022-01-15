@@ -12,10 +12,35 @@
     ---------------------------  */
 
 .header-width {
-    background-color: whitesmoke;
     width: 100%;
-    height: 100px;
-    margin-bottom: 40px;
+    height: 120px;
+    display: grid;
+    align-items: center;
+
+
+}
+
+nav {
+    width: 80%;
+    max-width: 1047px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.navigation ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 15px;
+
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    float: right;
+    padding-left: 20px;
 }
 
 /* --------------------------
