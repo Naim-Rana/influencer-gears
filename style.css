@@ -145,7 +145,6 @@ nav {
     padding: 8px;
     border: none;
     border-radius: 5px;
-
 }
 
 .box-info {
@@ -222,9 +221,6 @@ footer {
     padding: 30px 0;
     color: white;
     text-align: center;
-
-    /* h2:after {
-        content: ' \00A9'; */
 }
 
 .social-icon {
