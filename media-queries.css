@@ -81,7 +81,8 @@
     }
 
     #nine {
-        visibility: hidden;
+        /* visibility: hidden; */
+        display: none;
     }
 
     footer {
@@ -91,7 +92,9 @@
 
 @media screen and (max-width:550px) {
     body {
-        padding: 0 4px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     header {
@@ -124,6 +127,7 @@
     }
 
     footer {
+        box-sizing: border-box;
         width: 100%;
     }
 }
