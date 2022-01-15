@@ -7,6 +7,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* ----------------------------
+            header style
+    ---------------------------  */
+
+.header-width {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 40px;
+}
 
 /* --------------------------
     title-blog style
