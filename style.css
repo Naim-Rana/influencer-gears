@@ -147,7 +147,7 @@
 
 }
 
-.see-more-icon a {
+.see-more-icon>a {
     text-decoration: none;
     color: #E02C6D;
     font-size: 20px;
@@ -175,4 +175,16 @@ footer {
 
     /* h2:after {
         content: ' \00A9'; */
+}
+
+.social-icon {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.social-icon a {
+    text-decoration: none;
+    margin: 0 4px;
+    padding: 0 6px;
+    color: #e02c6eea;
 }
